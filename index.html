@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Merriweather&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="reset.css" />
+    <link rel="stylesheet" type="text/css" href="index.css" />
+    <title>Login</title>
+  </head>
+  <body>
+    <div class="img">
+      <img src="assets/login.svg" alt="Login" />
+    </div>
+    <div class="content">
+      <div class="form-action">
+        <div class="header-form">
+          <p>Bem vindo de volta</p>
+          <h1>Faça login na sua conta</h1>
+        </div>
+        <form>
+          <label for="email">E-mail</label>
+          <input id="email" type="email" placeholder="codelandia@gmail.com" />
+          <label for="Senha">Senha</label>
+          <input id="senha" type="password" placeholder="*********" />
+          <div>
+            <p>
+              <input id="lembre" type="radio" />
+              <label for="lembre">Lembre de mim</label>
+            </p>
+            <a>Esqueceu sua senha?</a>
+          </div>
+          <button id="entrar" type="submit">Entrar</button>
+          <button id="google">
+            <img src="assets/google.svg" alt="Google" /> Ou faça login com o
+            Google
+          </button>
+        </form>
+      </div>
+      <div class="forget-password">
+        <p>Não tem uma conta? <a>Cadastre-se</a></p>
+      </div>
+    </div>
+  </body>
+</html>

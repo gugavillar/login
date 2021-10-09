@@ -1,0 +1,163 @@
+body {
+  display: flex;
+}
+
+div.img, div.content {
+  height: 100vh;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+div.img {
+  background: #f7fafc;
+}
+
+div.form-action {
+  display: flex;
+  flex: 1 0 auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+div.header-form {
+  font-family: 'Merriweather';
+  color: #1A202C;
+}
+
+div.header-form>p {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.25rem;
+  padding-bottom: 0.5rem;
+}
+
+div.header-form>h1 {
+  font-size: 1.625rem;
+  line-height: 2.06rem;
+  font-weight: bold;
+}
+
+div.form-action>form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 2.4375rem;
+}
+
+form>label {
+  font-family: 'Lato';
+  color: #1A202C;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.1875rem;
+  margin-bottom: 0.6rem;
+}
+
+form>input {
+  border-radius: 5px;
+  border: 1px solid #e8e8e8;
+  height: 3.125rem;
+  padding-left: 1.25rem;
+}
+
+input#email {
+  margin-bottom: 0.6rem;
+}
+
+::placeholder, input[type="email"], input[type="password"] {
+  font-family: 'Lato';
+  font-size: 0.875rem;
+  line-height: 1rem;
+  color: #1A202C;
+}
+
+form>div {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1.2rem;
+}
+
+form>div>p>label {
+  font-family: 'Lato';
+  font-size: 0.875rem;
+  color: #1a202c;
+  font-weight: 400;
+  line-height: 1rem;
+}
+
+form>div>a {
+  font-family: 'Lato';
+  font-size: 0.875rem;
+  color: #2B6CB0;
+  font-weight: 400;
+  line-height: 1rem;
+}
+
+button#entrar {
+  background: #04C35C;
+  border-radius: 5px;
+  height: 3.125rem;
+  margin-top: 1.625rem;
+  margin-bottom: 1rem;
+  border: none;
+  font-family: 'Lato';
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1.1875rem;
+  color: #ffffff;
+}
+
+button#google {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #1A202C;
+  border-radius: 5px;
+  height: 3.125rem;
+  border: none;
+  font-family: 'Lato';
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1.1875rem;
+  color: #ffffff;
+}
+
+button#google>img {
+  padding-right: 0.5rem;
+}
+
+div.forget-password {
+  padding-bottom: 4rem;
+}
+
+div.forget-password>p {
+  color: #1a202c;
+  font-family: 'Lato';
+  font-size: 1rem;
+  line-height: 1.1875rem;
+}
+
+div.forget-password>p>a {
+  font-family: 'Roboto';
+  color: #2B6CB0;
+}
+
+@media screen and (max-width:809px) {
+  div.img {
+    display: none;
+  }
+  div.content {
+    height: 100vh;
+    width: 100vw;
+  }
+  div.form-action {
+    justify-content: flex-start;
+    padding-top: 4.5rem;
+  }
+}
