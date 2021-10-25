@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/gugavillar/login)
-- Live Site URL: [Add live site URL here](https://gugavillar.github.io/login/)
+- Solution URL: [Github](https://github.com/gugavillar/login)
+- Live Site URL: [Login](https://gugavillar.github.io/login/)
 
 ## My process
 
